@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="%%WIDTH%%" height="%%HEIGHT%%" viewBox="0 0 %%WIDTH%% %%HEIGHT%%" role="img" aria-label="Schengen Visa Support share card template">
+  <style>
+    text{font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif}
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#1e3a8a" />
+      <stop offset="1" stop-color="#2563eb" />
+    </linearGradient>
+    <clipPath id="contentClip">
+      <rect x="64" y="70" width="%%CONTENT_WIDTH%%" height="%%CONTENT_HEIGHT%%" />
+    </clipPath>
+  </defs>
+
+  <rect width="%%WIDTH%%" height="%%HEIGHT%%" rx="18" fill="url(#g)" />
+  <!-- decorative sphere on right side -->
+  <defs>
+    <radialGradient id="sphereGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4f7dff" />
+      <stop offset="55%" stop-color="#315fe6" />
+      <stop offset="100%" stop-color="#1f4ed8" />
+    </radialGradient>
+    <linearGradient id="sphereShine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32" />
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <circle cx="%%SPHEREX%%" cy="%%SPHEREY%%" r="%%SPHERER%%" fill="url(#sphereGrad)" id="decorSphere" />
+  <circle cx="%%SPHEREX%%" cy="%%SPHEREY%%" r="%%SPHERER%%" fill="none" stroke="#ffffff" stroke-width="2.8" opacity="0.96" />
+  <ellipse cx="%%SPHEREX%%" cy="%%SPHERESHINEY%%" rx="%%SPHERESHINERX%%" ry="%%SPHERESHINERY%%" fill="url(#sphereShine)" />
+  <!-- text inside sphere -->
+  <text x="%%SPHEREX%%" y="%%SPHEREY%%" text-anchor="middle" fill="#fff" font-size="20" font-weight="700" letter-spacing="0.8">SCHENGEN</text>
+  <text x="%%SPHEREX%%" y="%%SPHEREYPLUS%%" text-anchor="middle" fill="#fff" font-size="12" font-weight="600">Visa Support</text>
+
+  <g fill="#fff" clip-path="url(#contentClip)">
+    <!-- title block; may span multiple lines -->
+    <text x="64" y="%%TITLE_Y%%" font-size="%%TITLE_SIZE%%" font-weight="%%TITLE_WEIGHT%%" letter-spacing="%%TITLE_SPACING%%">%%TITLE_LINES%%</text>
+
+    <rect x="64" y="%%UNDERLINE_Y%%" width="calc(%%WIDTH%% - 180)" height="1" fill="#fff" opacity="0.12" />
+
+    <text x="64" y="%%DESC_Y%%" font-size="%%DESC_SIZE%%" opacity="0.98" font-weight="500" letter-spacing="%%DESC_SPACING%%">%%DESC_LINES%%</text>
+
+  </g>
+
+  <!-- URL line (outside clip so it's never hidden) -->
+  <text x="%%URL_X%%" y="%%URL_Y%%" text-anchor="start" font-size="%%URL_SIZE%%" fill="#fff" letter-spacing="0.12">%%URL_LABEL%%</text>
+
+  <text x="64" y="%%TRUST_Y%%" text-anchor="start" font-size="18" fill="#ffffff" opacity="0.9">%%TRUST_LINE%%</text>
+
+  %%QR_BLOCK%%
+</svg>

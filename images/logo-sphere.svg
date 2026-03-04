@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-label="Schengen Visa Support sphere logo">
+  <defs>
+    <radialGradient id="sphereFill" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4f7dff"/>
+      <stop offset="55%" stop-color="#315fe6"/>
+      <stop offset="100%" stop-color="#1f4ed8"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="600" cy="600" r="500" fill="url(#sphereFill)"/>
+  <circle cx="600" cy="600" r="500" fill="none" stroke="#ffffff" stroke-width="14" opacity="0.96"/>
+  <ellipse cx="600" cy="470" rx="420" ry="290" fill="url(#shine)"/>
+
+  <text x="600" y="620" text-anchor="middle" fill="#ffffff" font-family="Poppins, Arial, sans-serif" font-size="138" font-weight="700" letter-spacing="2">SCHENGEN</text>
+  <text x="600" y="730" text-anchor="middle" fill="#ffffff" font-family="Poppins, Arial, sans-serif" font-size="82" font-weight="600">Visa Support</text>
+</svg>

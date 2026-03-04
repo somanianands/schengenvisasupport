@@ -1,0 +1,192 @@
+{
+  "start_url": "https://visacatcher.bot/appointments/dublin",
+  "host": "visacatcher.bot",
+  "pages_visited": 58,
+  "errors": {
+    "https://visacatcher.bot/images/Visa Catcher iPhone mockups.webp": "URL can't contain control characters. '/images/Visa Catcher iPhone mockups.webp' (found at least ' ')",
+    "https://visacatcher.bot/images/portugal sea.webp": "URL can't contain control characters. '/images/portugal sea.webp' (found at least ' ')",
+    "https://visacatcher.bot/appointments/london/czech republic": "URL can't contain control characters. '/appointments/london/czech republic' (found at least ' ')"
+  },
+  "vfs_links_count": 33,
+  "vfs_links": [
+    "https://visa.vfsglobal.com/gbr/en/aut/login",
+    "https://visa.vfsglobal.com/gbr/en/bgr/login",
+    "https://visa.vfsglobal.com/gbr/en/che/login",
+    "https://visa.vfsglobal.com/gbr/en/cyp/login",
+    "https://visa.vfsglobal.com/gbr/en/cze/login",
+    "https://visa.vfsglobal.com/gbr/en/dnk/login",
+    "https://visa.vfsglobal.com/gbr/en/est/login",
+    "https://visa.vfsglobal.com/gbr/en/fin/login",
+    "https://visa.vfsglobal.com/gbr/en/fra/login",
+    "https://visa.vfsglobal.com/gbr/en/hrv/login",
+    "https://visa.vfsglobal.com/gbr/en/hun/login",
+    "https://visa.vfsglobal.com/gbr/en/irl/login",
+    "https://visa.vfsglobal.com/gbr/en/isl/login",
+    "https://visa.vfsglobal.com/gbr/en/ita/login",
+    "https://visa.vfsglobal.com/gbr/en/ltu/login",
+    "https://visa.vfsglobal.com/gbr/en/lva/login",
+    "https://visa.vfsglobal.com/gbr/en/mlt/login",
+    "https://visa.vfsglobal.com/gbr/en/nld/login",
+    "https://visa.vfsglobal.com/gbr/en/nor/login",
+    "https://visa.vfsglobal.com/gbr/en/nzl/login",
+    "https://visa.vfsglobal.com/gbr/en/prt/login",
+    "https://visa.vfsglobal.com/gbr/en/sgp/login",
+    "https://visa.vfsglobal.com/gbr/en/svn/login",
+    "https://visa.vfsglobal.com/gbr/en/swe/login",
+    "https://visa.vfsglobal.com/gbr/en/ukr/login",
+    "https://visa.vfsglobal.com/gbr/en/zaf/login",
+    "https://visa.vfsglobal.com/irl/en/aut/login",
+    "https://visa.vfsglobal.com/irl/en/dnk/login",
+    "https://visa.vfsglobal.com/irl/en/fin/login",
+    "https://visa.vfsglobal.com/irl/en/hrv/login",
+    "https://visa.vfsglobal.com/irl/en/hun/login",
+    "https://visa.vfsglobal.com/irl/en/isl/login",
+    "https://visa.vfsglobal.com/irl/en/nld/login"
+  ],
+  "page_to_vfs": {
+    "https://visacatcher.bot/appointments": [
+      "https://visa.vfsglobal.com/gbr/en/aut/login",
+      "https://visa.vfsglobal.com/gbr/en/che/login",
+      "https://visa.vfsglobal.com/gbr/en/cyp/login",
+      "https://visa.vfsglobal.com/gbr/en/cze/login",
+      "https://visa.vfsglobal.com/gbr/en/dnk/login",
+      "https://visa.vfsglobal.com/gbr/en/est/login",
+      "https://visa.vfsglobal.com/gbr/en/fin/login",
+      "https://visa.vfsglobal.com/gbr/en/hrv/login",
+      "https://visa.vfsglobal.com/gbr/en/hun/login",
+      "https://visa.vfsglobal.com/gbr/en/isl/login",
+      "https://visa.vfsglobal.com/gbr/en/ita/login",
+      "https://visa.vfsglobal.com/gbr/en/ltu/login",
+      "https://visa.vfsglobal.com/gbr/en/lva/login",
+      "https://visa.vfsglobal.com/gbr/en/mlt/login",
+      "https://visa.vfsglobal.com/gbr/en/nld/login",
+      "https://visa.vfsglobal.com/gbr/en/nor/login",
+      "https://visa.vfsglobal.com/gbr/en/prt/login",
+      "https://visa.vfsglobal.com/gbr/en/svn/login",
+      "https://visa.vfsglobal.com/gbr/en/swe/login"
+    ],
+    "https://visacatcher.bot/appointments/dublin": [
+      "https://visa.vfsglobal.com/irl/en/fin/login",
+      "https://visa.vfsglobal.com/irl/en/hun/login",
+      "https://visa.vfsglobal.com/irl/en/isl/login",
+      "https://visa.vfsglobal.com/irl/en/nld/login"
+    ],
+    "https://visacatcher.bot/appointments/dublin/austria": [
+      "https://visa.vfsglobal.com/irl/en/aut/login"
+    ],
+    "https://visacatcher.bot/appointments/dublin/croatia": [
+      "https://visa.vfsglobal.com/irl/en/hrv/login"
+    ],
+    "https://visacatcher.bot/appointments/dublin/denmark": [
+      "https://visa.vfsglobal.com/irl/en/dnk/login"
+    ],
+    "https://visacatcher.bot/appointments/dublin/finland": [
+      "https://visa.vfsglobal.com/irl/en/fin/login"
+    ],
+    "https://visacatcher.bot/appointments/dublin/hungary": [
+      "https://visa.vfsglobal.com/irl/en/hun/login"
+    ],
+    "https://visacatcher.bot/appointments/dublin/iceland": [
+      "https://visa.vfsglobal.com/irl/en/isl/login"
+    ],
+    "https://visacatcher.bot/appointments/dublin/netherlands": [
+      "https://visa.vfsglobal.com/irl/en/nld/login"
+    ],
+    "https://visacatcher.bot/appointments/london": [
+      "https://visa.vfsglobal.com/gbr/en/aut/login",
+      "https://visa.vfsglobal.com/gbr/en/che/login",
+      "https://visa.vfsglobal.com/gbr/en/cyp/login",
+      "https://visa.vfsglobal.com/gbr/en/cze/login",
+      "https://visa.vfsglobal.com/gbr/en/dnk/login",
+      "https://visa.vfsglobal.com/gbr/en/est/login",
+      "https://visa.vfsglobal.com/gbr/en/fin/login",
+      "https://visa.vfsglobal.com/gbr/en/hrv/login",
+      "https://visa.vfsglobal.com/gbr/en/hun/login",
+      "https://visa.vfsglobal.com/gbr/en/isl/login",
+      "https://visa.vfsglobal.com/gbr/en/ita/login",
+      "https://visa.vfsglobal.com/gbr/en/ltu/login",
+      "https://visa.vfsglobal.com/gbr/en/lva/login",
+      "https://visa.vfsglobal.com/gbr/en/mlt/login",
+      "https://visa.vfsglobal.com/gbr/en/nld/login",
+      "https://visa.vfsglobal.com/gbr/en/nor/login",
+      "https://visa.vfsglobal.com/gbr/en/prt/login",
+      "https://visa.vfsglobal.com/gbr/en/svn/login",
+      "https://visa.vfsglobal.com/gbr/en/swe/login"
+    ],
+    "https://visacatcher.bot/appointments/london/austria": [
+      "https://visa.vfsglobal.com/gbr/en/aut/login"
+    ],
+    "https://visacatcher.bot/appointments/london/bulgaria": [
+      "https://visa.vfsglobal.com/gbr/en/bgr/login"
+    ],
+    "https://visacatcher.bot/appointments/london/croatia": [
+      "https://visa.vfsglobal.com/gbr/en/hrv/login"
+    ],
+    "https://visacatcher.bot/appointments/london/cyprus": [
+      "https://visa.vfsglobal.com/gbr/en/cyp/login"
+    ],
+    "https://visacatcher.bot/appointments/london/denmark": [
+      "https://visa.vfsglobal.com/gbr/en/dnk/login"
+    ],
+    "https://visacatcher.bot/appointments/london/estonia": [
+      "https://visa.vfsglobal.com/gbr/en/est/login"
+    ],
+    "https://visacatcher.bot/appointments/london/finland": [
+      "https://visa.vfsglobal.com/gbr/en/fin/login"
+    ],
+    "https://visacatcher.bot/appointments/london/france": [
+      "https://visa.vfsglobal.com/gbr/en/fra/login"
+    ],
+    "https://visacatcher.bot/appointments/london/hungary": [
+      "https://visa.vfsglobal.com/gbr/en/hun/login"
+    ],
+    "https://visacatcher.bot/appointments/london/iceland": [
+      "https://visa.vfsglobal.com/gbr/en/isl/login"
+    ],
+    "https://visacatcher.bot/appointments/london/ireland": [
+      "https://visa.vfsglobal.com/gbr/en/irl/login"
+    ],
+    "https://visacatcher.bot/appointments/london/italy": [
+      "https://visa.vfsglobal.com/gbr/en/ita/login"
+    ],
+    "https://visacatcher.bot/appointments/london/latvia": [
+      "https://visa.vfsglobal.com/gbr/en/lva/login"
+    ],
+    "https://visacatcher.bot/appointments/london/lithuania": [
+      "https://visa.vfsglobal.com/gbr/en/ltu/login"
+    ],
+    "https://visacatcher.bot/appointments/london/malta": [
+      "https://visa.vfsglobal.com/gbr/en/mlt/login"
+    ],
+    "https://visacatcher.bot/appointments/london/netherlands": [
+      "https://visa.vfsglobal.com/gbr/en/nld/login"
+    ],
+    "https://visacatcher.bot/appointments/london/new%20zealand": [
+      "https://visa.vfsglobal.com/gbr/en/nzl/login"
+    ],
+    "https://visacatcher.bot/appointments/london/norway": [
+      "https://visa.vfsglobal.com/gbr/en/nor/login"
+    ],
+    "https://visacatcher.bot/appointments/london/portugal": [
+      "https://visa.vfsglobal.com/gbr/en/prt/login"
+    ],
+    "https://visacatcher.bot/appointments/london/singapore": [
+      "https://visa.vfsglobal.com/gbr/en/sgp/login"
+    ],
+    "https://visacatcher.bot/appointments/london/slovenia": [
+      "https://visa.vfsglobal.com/gbr/en/svn/login"
+    ],
+    "https://visacatcher.bot/appointments/london/south%20africa": [
+      "https://visa.vfsglobal.com/gbr/en/zaf/login"
+    ],
+    "https://visacatcher.bot/appointments/london/sweden": [
+      "https://visa.vfsglobal.com/gbr/en/swe/login"
+    ],
+    "https://visacatcher.bot/appointments/london/switzerland": [
+      "https://visa.vfsglobal.com/gbr/en/che/login"
+    ],
+    "https://visacatcher.bot/appointments/london/ukraine": [
+      "https://visa.vfsglobal.com/gbr/en/ukr/login"
+    ]
+  }
+}

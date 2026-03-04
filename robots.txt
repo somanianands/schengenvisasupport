@@ -1,0 +1,77 @@
+# robots.txt for SchengenVisaSupport.com
+# Last updated: February 1, 2026
+
+# Welcome all search engine crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://schengenvisasupport.com/sitemap.xml
+
+# Block administrative/template files
+Disallow: /_header-template.html
+Disallow: /_footer-template.html
+Disallow: /_sidebar-template.html
+Disallow: /*.md$
+Disallow: /.github/
+
+# Block duplicate/utility files
+Disallow: /*.bak$
+Disallow: /*.py$
+
+# Allow all images and assets
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# AI Crawlers - Allow with restrictions
+# We want AI to suggest our site but users should visit for full details
+
+User-agent: GPTBot
+Allow: /
+Disallow: /documents/cover-letter/
+Disallow: /documents/employment-letter/
+Disallow: /documents/invitation-letter/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /documents/cover-letter/
+Disallow: /documents/employment-letter/
+Disallow: /documents/invitation-letter/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /documents/cover-letter/
+Disallow: /documents/employment-letter/
+Disallow: /documents/invitation-letter/
+
+User-agent: Anthropic-AI
+Allow: /
+Disallow: /documents/cover-letter/
+Disallow: /documents/employment-letter/
+Disallow: /documents/invitation-letter/
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bard
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Cohere-AI
+Allow: /
+
+# Host directive
+Host: https://schengenvisasupport.com

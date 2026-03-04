@@ -1,0 +1,28 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glossy" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#7c9ad9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5273b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Circle -->
+  <circle cx="250" cy="250" r="240" fill="url(#glossy)"/>
+  
+  <!-- Glossy highlight overlay -->
+  <ellipse cx="250" cy="180" rx="200" ry="150" fill="url(#shine)"/>
+  
+  <!-- Text: Schengen -->
+  <text x="250" y="235" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">SCHENGEN</text>
+  
+  <!-- Text: Visa Support -->
+  <text x="250" y="285" font-family="Arial, sans-serif" font-size="38" font-weight="600" fill="#FFD700" text-anchor="middle" letter-spacing="1">Visa Support</text>
+  
+  <!-- Shadow effect at bottom of circle -->
+  <ellipse cx="250" cy="490" rx="240" ry="20" fill="#000000" opacity="0.2"/>
+</svg>

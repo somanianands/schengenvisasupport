@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Schengen Visa Support compact share card">
+  <style>
+    @font-face{font-family: 'Poppins'; src: local('Poppins'), local('Poppins-Regular');}
+    text{font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif}
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#1e3a8a" />
+      <stop offset="1" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" rx="18" fill="url(#g)" />
+
+  <g fill="#fff">
+    <text x="64" y="150" font-size="48" font-weight="700">How to Apply for Schengen Visa</text>
+    <text x="64" y="200" font-size="20" opacity="0.92">Step-by-step guide · Documents, appointments & tips (2026)</text>
+
+    <rect x="64" y="230" width="1072" height="1" fill="#fff" opacity="0.12" />
+
+    <text x="64" y="300" font-size="18" opacity="0.95" font-weight="500">Practical checklist, appointment tips and sample documents to increase approval chances.</text>
+
+    <!-- small url chip -->
+    <g transform="translate(64, 360)">
+      <rect x="0" y="0" width="240" height="36" rx="8" fill="#ffffff" opacity="0.08" />
+      <text x="18" y="24" font-size="16" fill="#fff">schengenvisasupport.com</text>
+    </g>
+
+    <!-- subtle corner logo -->
+    <g transform="translate(1040, 480)">
+      <circle cx="40" cy="40" r="40" fill="#fff" opacity="0.12" />
+      <text x="40" y="46" text-anchor="middle" font-size="22" font-weight="700">SV</text>
+    </g>
+  </g>
+</svg>
