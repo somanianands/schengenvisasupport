@@ -1,6 +1,2 @@
 name = "schengenvisasupport"
-type = "javascript"
-pages_build_output_dir = "."
-
-[env.production]
 pages_build_output_dir = "."

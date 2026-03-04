@@ -371,6 +371,139 @@ article.main-content {
     color: var(--primary-color);
 }
 
+.quick-link-hub {
+    background: var(--bg-light);
+    border: 1px solid var(--border-color);
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.quick-link-hub h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+.quick-link-hub ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-link-hub li a {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.start-here {
+    background: var(--bg-light);
+    border: 1px solid var(--border-color);
+    padding: 1rem 1.25rem;
+    margin: 0 0 1.5rem;
+}
+
+.start-here h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+.start-here p {
+    margin-bottom: 0.75rem;
+    color: var(--text-light);
+}
+
+.start-here-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.start-here-card {
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    padding: 0.875rem;
+}
+
+.start-here-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.start-here-card ul {
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.start-here-card li {
+    margin-bottom: 0.4rem;
+}
+
+.start-here-card a {
+    font-weight: 500;
+}
+
+.internal-link-cloud {
+    background: var(--bg-light);
+    border: 1px solid var(--border-color);
+    padding: 1rem 1.25rem;
+}
+
+.internal-link-cloud h2 {
+    margin-top: 0;
+}
+
+.internal-link-cloud-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.internal-link-cloud-grid h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.internal-link-cloud-grid ul {
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.internal-link-cloud-grid li {
+    margin-bottom: 0.4rem;
+}
+
+.internal-link-cloud-grid a {
+    font-weight: 500;
+}
+
+.need-based-links-block {
+    margin-top: 2rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--border-color);
+    background: var(--bg-light);
+}
+
+.need-based-links-block h2 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.35rem;
+}
+
+.need-based-links-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem 1rem;
+}
+
+.need-based-links-grid a {
+    display: inline-block;
+    font-weight: 500;
+}
+
 /* Responsive - Hide sidebar on mobile */
 @media (max-width: 992px) {
     .content-wrapper {
@@ -1348,6 +1481,69 @@ button:focus-visible {
         max-width: 100%;
         overflow-x: auto;
         word-wrap: normal;
+    }
+
+    .quick-link-hub ul {
+        grid-template-columns: 1fr;
+    }
+
+    .start-here-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .internal-link-cloud-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .need-based-links-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.mobile-bottom-nav {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .mobile-bottom-nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 950;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        background: var(--bg-color);
+        border-top: 1px solid var(--border-color);
+        padding: 0.35rem 0 max(0.35rem, env(safe-area-inset-bottom));
+    }
+
+    .mobile-bottom-nav a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 44px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--text-color);
+        border-right: 1px solid var(--border-color);
+    }
+
+    .mobile-bottom-nav a:last-child {
+        border-right: none;
+    }
+
+    .mobile-bottom-nav a.active {
+        color: var(--primary-color);
+    }
+
+    body.mobile-has-bottom-nav {
+        padding-bottom: 5.2rem;
+    }
+
+    body.mobile-has-bottom-nav .back-to-top {
+        bottom: 5.6rem;
     }
 }
 

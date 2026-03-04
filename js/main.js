@@ -190,6 +190,16 @@
             }
         });
     }
+
+    // Need-based block links - Open in New Tab
+    function initNeedBasedLinksNewTab() {
+        const needBasedLinks = document.querySelectorAll('.need-based-links-block a[href]');
+
+        needBasedLinks.forEach(link => {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+        });
+    }
     
     // Table of Contents - Highlight Active Section
     function initTOCHighlight() {
@@ -269,6 +279,7 @@
         highlightCurrentPage();
         initLazyLoad();
         initExternalLinks();
+        initNeedBasedLinksNewTab();
         initTOCHighlight();
         initPrintButton();
         initBackToTop();
