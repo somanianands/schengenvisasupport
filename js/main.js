@@ -191,6 +191,7 @@
         });
     }
 
+
     // Need-based block links - Open in New Tab
     function initNeedBasedLinksNewTab() {
         const needBasedLinks = document.querySelectorAll('.need-based-links-block a[href]');

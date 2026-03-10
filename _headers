@@ -3,6 +3,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
+  X-Robots-Tag: max-image-preview:large
 
 /*.html
   Cache-Control: public, max-age=3600, s-maxage=86400
